@@ -1,0 +1,1652 @@
+[
+  {
+    "name": "Burger",
+    "category": "Fast Food",
+    "price_range": "$5 - $15",
+    "nutritions": {"protein": "20g", "carbohydrates": "30g", "fat": "15g"},
+    "calories": 400,
+    "ingredients": ["Bun", "Beef Patty", "Lettuce", "Cheese", "Ketchup"],
+    "details": "A classic fast food item consisting of a meat patty served in a bun with various toppings.",
+    "images": ["assets/fastfoods/burger.jpg"]
+  },
+  {
+    "name": "Pizza",
+    "category": "Fast Food",
+    "price_range": "$8 - $20",
+    "nutritions": {"protein": "15g", "carbohydrates": "35g", "fat": "20g"},
+    "calories": 600,
+    "ingredients": ["Dough", "Tomato Sauce", "Cheese", "Pepperoni", "Olives"],
+    "details": "A round flatbread topped with tomato sauce, cheese, and various toppings.",
+    "images": ["assets/fastfoods/pizza.jpg"]
+  },
+  {
+    "name": "Hot Dog",
+    "category": "Fast Food",
+    "price_range": "$2 - $5",
+    "nutritions": {"protein": "12g", "carbohydrates": "25g", "fat": "10g"},
+    "calories": 300,
+    "ingredients": ["Bun", "Sausage", "Ketchup", "Mustard"],
+    "details": "A sausage served in a bun, often with condiments like ketchup and mustard.",
+    "images": ["assets/fastfoods/hotdog.jpg"]
+  },
+  {
+    "name": "French Fries",
+    "category": "Fast Food",
+    "price_range": "$3 - $7",
+    "nutritions": {"protein": "3g", "carbohydrates": "40g", "fat": "15g"},
+    "calories": 350,
+    "ingredients": ["Potatoes", "Salt", "Oil"],
+    "details": "Crispy fried potato slices, seasoned with salt.",
+    "images": ["assets/fastfoods/frenchfries.jpg"]
+  },
+  {
+    "name": "Sandwich",
+    "category": "Fast Food",
+    "price_range": "$4 - $10",
+    "nutritions": {"protein": "18g", "carbohydrates": "40g", "fat": "12g"},
+    "calories": 450,
+    "ingredients": ["Bread", "Lettuce", "Tomato", "Turkey", "Cheese"],
+    "details": "Two slices of bread with various fillings, such as meat, vegetables, and condiments.",
+    "images": ["assets/fastfoods/sandwich.jpg"]
+  },
+  {
+    "name": "Tacos",
+    "category": "Fast Food",
+    "price_range": "$3 - $8",
+    "nutritions": {"protein": "14g", "carbohydrates": "25g", "fat": "10g"},
+    "calories": 320,
+    "ingredients": ["Taco Shell", "Ground Beef", "Lettuce", "Cheese", "Sour Cream"],
+    "details": "A crispy shell filled with seasoned meat, cheese, and toppings.",
+    "images": ["assets/fastfoods/tacos.jpg"]
+  },
+  {
+    "name": "Donuts",
+    "category": "Fast Food",
+    "price_range": "$1 - $3",
+    "nutritions": {"protein": "2g", "carbohydrates": "30g", "fat": "15g"},
+    "calories": 250,
+    "ingredients": ["Flour", "Sugar", "Eggs", "Butter", "Yeast"],
+    "details": "A sweet, fried dough pastry often glazed or sprinkled with sugar.",
+    "images": ["assets/fastfoods/donuts.jpg"]
+  },
+  {
+    "name": "Fried Chicken",
+    "category": "Fast Food",
+    "price_range": "$6 - $15",
+    "nutritions": {"protein": "25g", "carbohydrates": "15g", "fat": "20g"},
+    "calories": 500,
+    "ingredients": ["Chicken", "Flour", "Eggs", "Oil", "Spices"],
+    "details": "Crispy, breaded chicken pieces fried to perfection.",
+    "images": ["assets/fastfoods/friedchicken.jpg"]
+  },
+  {
+    "name": "Burrito",
+    "category": "Fast Food",
+    "price_range": "$5 - $12",
+    "nutritions": {"protein": "20g", "carbohydrates": "50g", "fat": "15g"},
+    "calories": 450,
+    "ingredients": ["Flour Tortilla", "Rice", "Beans", "Chicken", "Cheese"],
+    "details": "A large flour tortilla wrapped around a filling of rice, beans, and meat.",
+    "images": ["assets/fastfoods/burrito.jpg"]
+  },
+  {
+    "name": "Nachos",
+    "category": "Fast Food",
+    "price_range": "$4 - $8",
+    "nutritions": {"protein": "10g", "carbohydrates": "30g", "fat": "12g"},
+    "calories": 350,
+    "ingredients": ["Tortilla Chips", "Cheese", "Sour Cream", "Jalapeños", "Guacamole"],
+    "details": "Crispy tortilla chips topped with melted cheese and various toppings.",
+    "images": ["assets/fastfoods/nachos.jpg"]
+  },
+  {
+    "name": "Kebab",
+    "category": "Fast Food",
+    "price_range": "$5 - $10",
+    "nutritions": {"protein": "25g", "carbohydrates": "20g", "fat": "18g"},
+    "calories": 500,
+    "ingredients": ["Lamb", "Spices", "Vegetables", "Flatbread"],
+    "details": "Grilled skewers of marinated meat served with flatbread and salad.",
+    "images": ["assets/fastfoods/kebab.jpg"]
+  },
+  {
+    "name": "Shawarma",
+    "category": "Fast Food",
+    "price_range": "$6 - $12",
+    "nutritions": {"protein": "20g", "carbohydrates": "30g", "fat": "20g"},
+    "calories": 600,
+    "ingredients": ["Lamb", "Chicken", "Spices", "Pita Bread", "Tahini"],
+    "details": "Thin slices of seasoned meat, often served in pita with various toppings.",
+    "images": ["assets/fastfoods/shawarma.jpg"]
+  },
+  {
+    "name": "Cheeseburger",
+    "category": "Fast Food",
+    "price_range": "$5 - $12",
+    "nutritions": {"protein": "22g", "carbohydrates": "30g", "fat": "18g"},
+    "calories": 450,
+    "ingredients": ["Bun", "Beef Patty", "Cheese", "Lettuce", "Tomato"],
+    "details": "A burger with a slice of cheese melted on top of the patty.",
+    "images": ["assets/fastfoods/cheeseburger.jpg"]
+  },
+  {
+    "name": "Waffles",
+    "category": "Fast Food",
+    "price_range": "$3 - $8",
+    "nutritions": {"protein": "6g", "carbohydrates": "40g", "fat": "15g"},
+    "calories": 350,
+    "ingredients": ["Flour", "Eggs", "Milk", "Sugar", "Butter"],
+    "details": "A sweet, crispy batter-based dish often served with syrup or fruit.",
+    "images": ["assets/fastfoods/waffles.jpg"]
+  },
+  {
+    "name": "Onion Rings",
+    "category": "Fast Food",
+    "price_range": "$3 - $7",
+    "nutritions": {"protein": "3g", "carbohydrates": "30g", "fat": "15g"},
+    "calories": 320,
+    "ingredients": ["Onions", "Flour", "Eggs", "Breadcrumbs", "Oil"],
+    "details": "Crispy, battered rings of onion, deep-fried until golden.",
+    "images": ["assets/fastfoods/onionrings.jpg"]
+  },
+{
+    "name": "Apple",
+    "category": "Fruits",
+    "price_range": "$1 - $5",
+    "nutritions": {"protein": "0.5g", "carbohydrates": "25g", "fat": "0g"},
+    "calories": 95,
+    "ingredients": ["Apple"],
+    "details": "A sweet and crisp fruit commonly eaten raw or used in baking.",
+    "images": ["assets/fruits/apple.jpg"]
+  },
+  {
+    "name": "Banana",
+    "category": "Fruits",
+    "price_range": "$0.5 - $2",
+    "nutritions": {"protein": "1g", "carbohydrates": "27g", "fat": "0.3g"},
+    "calories": 105,
+    "ingredients": ["Banana"],
+    "details": "A yellow fruit that is rich in potassium and commonly eaten raw.",
+    "images": ["assets/fruits/banana.jpg"]
+  },
+  {
+    "name": "Orange",
+    "category": "Fruits",
+    "price_range": "$1 - $4",
+    "nutritions": {"protein": "1g", "carbohydrates": "25g", "fat": "0.2g"},
+    "calories": 62,
+    "ingredients": ["Orange"],
+    "details": "A citrus fruit known for its refreshing taste and high vitamin C content.",
+    "images": ["assets/fruits/orange.jpg"]
+  },
+  {
+    "name": "Strawberry",
+    "category": "Fruits",
+    "price_range": "$2 - $6",
+    "nutritions": {"protein": "1g", "carbohydrates": "12g", "fat": "0.3g"},
+    "calories": 50,
+    "ingredients": ["Strawberry"],
+    "details": "A red, sweet fruit with a slightly tart flavor, often eaten fresh or used in desserts.",
+    "images": ["assets/fruits/strawberry.jpg"]
+  },
+  {
+    "name": "Grapes",
+    "category": "Fruits",
+    "price_range": "$2 - $5",
+    "nutritions": {"protein": "1g", "carbohydrates": "27g", "fat": "0.2g"},
+    "calories": 70,
+    "ingredients": ["Grapes"],
+    "details": "Small, round, and sweet, grapes are eaten raw or made into juice or wine.",
+    "images": ["assets/fruits/grapes.jpg"]
+  },
+  {
+    "name": "Watermelon",
+    "category": "Fruits",
+    "price_range": "$5 - $10",
+    "nutritions": {"protein": "1g", "carbohydrates": "8g", "fat": "0g"},
+    "calories": 30,
+    "ingredients": ["Watermelon"],
+    "details": "A large, juicy fruit with a high water content, perfect for summer refreshment.",
+    "images": ["assets/fruits/watermelon.jpg"]
+  },
+  {
+    "name": "Pineapple",
+    "category": "Fruits",
+    "price_range": "$3 - $8",
+    "nutritions": {"protein": "1g", "carbohydrates": "22g", "fat": "0g"},
+    "calories": 82,
+    "ingredients": ["Pineapple"],
+    "details": "A tropical fruit with a sweet and tangy flavor, commonly used in drinks or desserts.",
+    "images": ["assets/fruits/pineapple.jpg"]
+  },
+  {
+    "name": "Mango",
+    "category": "Fruits",
+    "price_range": "$2 - $6",
+    "nutritions": {"protein": "1g", "carbohydrates": "25g", "fat": "0g"},
+    "calories": 150,
+    "ingredients": ["Mango"],
+    "details": "A tropical fruit with a sweet, juicy flesh, commonly eaten fresh or in smoothies.",
+    "images": ["assets/fruits/mango.jpg"]
+  },
+  {
+    "name": "Kiwi",
+    "category": "Fruits",
+    "price_range": "$2 - $5",
+    "nutritions": {"protein": "1g", "carbohydrates": "14g", "fat": "0.5g"},
+    "calories": 42,
+    "ingredients": ["Kiwi"],
+    "details": "A small, fuzzy fruit with bright green flesh and black seeds, known for its tangy flavor.",
+    "images": ["assets/fruits/kiwi.jpg"]
+  },
+  {
+    "name": "Lemon",
+    "category": "Fruits",
+    "price_range": "$1 - $3",
+    "nutritions": {"protein": "1g", "carbohydrates": "6g", "fat": "0.2g"},
+    "calories": 17,
+    "ingredients": ["Lemon"],
+    "details": "A citrus fruit with a sour taste, often used to flavor drinks and food.",
+    "images": ["assets/fruits/lemon.jpg"]
+  },
+  {
+    "name": "Peach",
+    "category": "Fruits",
+    "price_range": "$2 - $5",
+    "nutritions": {"protein": "1g", "carbohydrates": "15g", "fat": "0g"},
+    "calories": 58,
+    "ingredients": ["Peach"],
+    "details": "A sweet, juicy fruit with fuzzy skin and a pit inside, typically eaten fresh or in desserts.",
+    "images": ["assets/fruits/peach.jpg"]
+  },
+  {
+    "name": "Pear",
+    "category": "Fruits",
+    "price_range": "$2 - $6",
+    "nutritions": {"protein": "1g", "carbohydrates": "26g", "fat": "0g"},
+    "calories": 100,
+    "ingredients": ["Pear"],
+    "details": "A sweet and juicy fruit with a smooth texture, often eaten raw or used in cooking.",
+    "images": ["assets/fruits/pear.jpg"]
+  },
+  {
+    "name": "Cherry",
+    "category": "Fruits",
+    "price_range": "$3 - $7",
+    "nutritions": {"protein": "1g", "carbohydrates": "25g", "fat": "0g"},
+    "calories": 50,
+    "ingredients": ["Cherry"],
+    "details": "A small, round, red fruit that is sweet or tart, commonly eaten fresh or used in pies.",
+    "images": ["assets/fruits/cherry.jpg"]
+  },
+  {
+    "name": "Coconut",
+    "category": "Fruits",
+    "price_range": "$3 - $10",
+    "nutritions": {"protein": "3g", "carbohydrates": "15g", "fat": "15g"},
+    "calories": 400,
+    "ingredients": ["Coconut"],
+    "details": "A tropical fruit with a tough outer shell and sweet, white flesh inside.",
+    "images": ["assets/fruits/coconut.jpg"]
+  },
+  {
+    "name": "Blueberry",
+    "category": "Fruits",
+    "price_range": "$3 - $8",
+    "nutritions": {"protein": "1g", "carbohydrates": "21g", "fat": "0g"},
+    "calories": 84,
+    "ingredients": ["Blueberry"],
+    "details": "A small, round, and sweet fruit, known for its antioxidants and commonly used in desserts.",
+    "images": ["assets/fruits/blueberry.jpg"]
+  },
+{
+    "name": "Salad",
+    "category": "Veg",
+    "price_range": "$3 - $8",
+    "nutritions": {"protein": "2g", "carbohydrates": "10g", "fat": "0g"},
+    "calories": 50,
+    "ingredients": ["Lettuce", "Tomato", "Cucumber", "Carrot", "Olives", "Dressing"],
+    "details": "A healthy mix of fresh vegetables, often served with a dressing.",
+    "images": ["assets/veg/salad.jpg"]
+  },
+  {
+    "name": "Veggie Pizza",
+    "category": "Veg",
+    "price_range": "$8 - $15",
+    "nutritions": {"protein": "10g", "carbohydrates": "30g", "fat": "12g"},
+    "calories": 300,
+    "ingredients": ["Pizza Dough", "Tomato Sauce", "Cheese", "Olives", "Bell Peppers", "Onions", "Mushrooms"],
+    "details": "A pizza topped with a variety of fresh vegetables.",
+    "images": ["assets/veg/veggiepizza.jpg"]
+  },
+  {
+    "name": "Paneer Tikka",
+    "category": "Veg",
+    "price_range": "$5 - $12",
+    "nutritions": {"protein": "18g", "carbohydrates": "10g", "fat": "12g"},
+    "calories": 180,
+    "ingredients": ["Paneer", "Yogurt", "Spices", "Lemon Juice", "Onions"],
+    "details": "Grilled cubes of paneer marinated in spices and yogurt.",
+    "images": ["assets/veg/paneertikka.jpg"]
+  },
+  {
+    "name": "Vegetable Soup",
+    "category": "Veg",
+    "price_range": "$4 - $9",
+    "nutritions": {"protein": "3g", "carbohydrates": "15g", "fat": "2g"},
+    "calories": 120,
+    "ingredients": ["Carrot", "Potato", "Onions", "Tomatoes", "Celery", "Garlic"],
+    "details": "A warm and comforting soup made with a variety of fresh vegetables.",
+    "images": ["assets/veg/vegetablesoup.jpg"]
+  },
+  {
+    "name": "Veggie Burger",
+    "category": "Veg",
+    "price_range": "$5 - $12",
+    "nutritions": {"protein": "12g", "carbohydrates": "30g", "fat": "10g"},
+    "calories": 350,
+    "ingredients": ["Vegetable Patty", "Bun", "Lettuce", "Tomato", "Cheese", "Ketchup"],
+    "details": "A burger made with a plant-based patty served with fresh vegetables.",
+    "images": ["assets/veg/veggieburger.jpg"]
+  },
+  {
+    "name": "Falafel",
+    "category": "Veg",
+    "price_range": "$4 - $8",
+    "nutritions": {"protein": "5g", "carbohydrates": "15g", "fat": "5g"},
+    "calories": 180,
+    "ingredients": ["Chickpeas", "Garlic", "Cumin", "Coriander", "Parsley", "Olive Oil"],
+    "details": "Deep-fried balls made from chickpeas and herbs, commonly served in pita bread.",
+    "images": ["assets/veg/falafel.jpg"]
+  },
+  {
+    "name": "Mushroom Pasta",
+    "category": "Veg",
+    "price_range": "$7 - $14",
+    "nutritions": {"protein": "10g", "carbohydrates": "45g", "fat": "14g"},
+    "calories": 400,
+    "ingredients": ["Pasta", "Mushrooms", "Garlic", "Cream", "Cheese", "Olive Oil"],
+    "details": "Pasta served with a creamy mushroom sauce and garlic.",
+    "images": ["assets/veg/mushroompasta.jpg"]
+  },
+  {
+    "name": "Veggie Wraps",
+    "category": "Veg",
+    "price_range": "$5 - $10",
+    "nutritions": {"protein": "8g", "carbohydrates": "30g", "fat": "5g"},
+    "calories": 250,
+    "ingredients": ["Tortilla", "Lettuce", "Tomato", "Cucumber", "Avocado", "Hummus"],
+    "details": "A healthy wrap filled with fresh veggies and a spread of hummus.",
+    "images": ["assets/veg/veggiewraps.jpg"]
+  },
+  {
+    "name": "Fried Vegetables",
+    "category": "Veg",
+    "price_range": "$6 - $12",
+    "nutritions": {"protein": "4g", "carbohydrates": "15g", "fat": "7g"},
+    "calories": 160,
+    "ingredients": ["Broccoli", "Carrots", "Bell Peppers", "Soy Sauce", "Ginger", "Garlic"],
+    "details": "A medley of vegetables stir-fried with soy sauce and aromatic spices.",
+    "images": ["assets/veg/stirfriedvegetables.jpg"]
+  },
+  {
+    "name": "Hummus & Bread",
+    "category": "Veg",
+    "price_range": "$3 - $8",
+    "nutritions": {"protein": "5g", "carbohydrates": "15g", "fat": "6g"},
+    "calories": 200,
+    "ingredients": ["Chickpeas", "Tahini", "Olive Oil", "Garlic", "Pita Bread"],
+    "details": "A creamy chickpea dip served with warm pita bread.",
+    "images": ["assets/veg/hummuswithbread.jpg"]
+  },
+  {
+    "name": "Grilled Vegetables",
+    "category": "Veg",
+    "price_range": "$5 - $10",
+    "nutritions": {"protein": "3g", "carbohydrates": "12g", "fat": "4g"},
+    "calories": 120,
+    "ingredients": ["Zucchini", "Eggplant", "Bell Peppers", "Olive Oil", "Herbs"],
+    "details": "A mix of vegetables grilled with olive oil and herbs.",
+    "images": ["assets/veg/grilledvegetables.jpg"]
+  },
+  {
+    "name": "Vegetable Curry",
+    "category": "Veg",
+    "price_range": "$7 - $14",
+    "nutritions": {"protein": "8g", "carbohydrates": "25g", "fat": "12g"},
+    "calories": 350,
+    "ingredients": ["Potatoes", "Carrots", "Peas", "Tomatoes", "Coconut Milk", "Spices"],
+    "details": "A flavorful curry made with a variety of vegetables in a rich, spiced sauce.",
+    "images": ["assets/veg/vegetablecurry.jpg"]
+  },
+  {
+    "name": "Stuffed Bell Peppers",
+    "category": "Veg",
+    "price_range": "$6 - $12",
+    "nutritions": {"protein": "6g", "carbohydrates": "20g", "fat": "5g"},
+    "calories": 200,
+    "ingredients": ["Bell Peppers", "Rice", "Tomatoes", "Cheese", "Spices"],
+    "details": "Bell peppers stuffed with a flavorful rice mixture and baked.",
+    "images": ["assets/veg/stuffedpeppers.jpg"]
+  },
+  {
+    "name": "Spring Rolls",
+    "category": "Veg",
+    "price_range": "$4 - $8",
+    "nutritions": {"protein": "3g", "carbohydrates": "15g", "fat": "3g"},
+    "calories": 150,
+    "ingredients": ["Rice Paper", "Vegetables", "Tofu", "Noodles"],
+    "details": "Light and crispy rolls filled with fresh vegetables and tofu.",
+    "images": ["assets/veg/springrolls.jpg"]
+  },
+  {
+    "name": "Ratatouille",
+    "category": "Veg",
+    "price_range": "$7 - $15",
+    "nutritions": {"protein": "5g", "carbohydrates": "20g", "fat": "8g"},
+    "calories": 180,
+    "ingredients": ["Zucchini", "Eggplant", "Tomatoes", "Bell Peppers", "Herbs"],
+    "details": "A French dish made with a medley of vegetables cooked in a tomato-based sauce.",
+    "images": ["assets/veg/ratatouille.jpg"]
+  },
+{
+    "name": "Fried Chicken",
+    "category": "Non-Veg",
+    "price_range": "$5 - $12",
+    "nutritions": {"protein": "20g", "carbohydrates": "10g", "fat": "15g"},
+    "calories": 350,
+    "ingredients": ["Chicken", "Flour", "Spices", "Oil"],
+    "details": "Crispy fried chicken with a seasoned coating.",
+    "images": ["assets/non-veg/friedchicken.jpg"]
+  },
+  {
+    "name": "Chicken Wings",
+    "category": "Non-Veg",
+    "price_range": "$6 - $15",
+    "nutritions": {"protein": "25g", "carbohydrates": "5g", "fat": "18g"},
+    "calories": 400,
+    "ingredients": ["Chicken Wings", "Buffalo Sauce", "Spices"],
+    "details": "Tender chicken wings coated in spicy buffalo sauce.",
+    "images": ["assets/non-veg/chickenwings.jpg"]
+  },
+  {
+    "name": "Beef Steak",
+    "category": "Non-Veg",
+    "price_range": "$12 - $30",
+    "nutritions": {"protein": "30g", "carbohydrates": "0g", "fat": "20g"},
+    "calories": 500,
+    "ingredients": ["Beef", "Salt", "Pepper", "Butter"],
+    "details": "Juicy beef steak grilled to your preference.",
+    "images": ["assets/non-veg/beefsteak.jpg"]
+  },
+  {
+    "name": "Lamb Chops",
+    "category": "Non-Veg",
+    "price_range": "$15 - $25",
+    "nutritions": {"protein": "30g", "carbohydrates": "0g", "fat": "25g"},
+    "calories": 600,
+    "ingredients": ["Lamb Chops", "Garlic", "Rosemary", "Olive Oil"],
+    "details": "Tender lamb chops grilled with aromatic rosemary.",
+    "images": ["assets/non-veg/lambchops.jpg"]
+  },
+  {
+    "name": "Roast Turkey",
+    "category": "Non-Veg",
+    "price_range": "$10 - $25",
+    "nutritions": {"protein": "35g", "carbohydrates": "5g", "fat": "15g"},
+    "calories": 400,
+    "ingredients": ["Turkey", "Garlic", "Herbs", "Butter"],
+    "details": "Roasted turkey with savory herb stuffing.",
+    "images": ["assets/non-veg/roastturkey.jpg"]
+  },
+  {
+    "name": "Chicken Biryani",
+    "category": "Non-Veg",
+    "price_range": "$7 - $15",
+    "nutritions": {"protein": "25g", "carbohydrates": "40g", "fat": "12g"},
+    "calories": 500,
+    "ingredients": ["Chicken", "Rice", "Spices", "Yogurt"],
+    "details": "A flavorful rice dish with spiced chicken and herbs.",
+    "images": ["assets/non-veg/chickenbiryani.jpg"]
+  },
+  {
+    "name": "Meatballs",
+    "category": "Non-Veg",
+    "price_range": "$5 - $12",
+    "nutritions": {"protein": "20g", "carbohydrates": "15g", "fat": "10g"},
+    "calories": 300,
+    "ingredients": ["Ground Meat", "Breadcrumbs", "Egg", "Garlic", "Spices"],
+    "details": "Savory meatballs made with ground meat, served with sauce.",
+    "images": ["assets/non-veg/meatballs.jpg"]
+  },
+  {
+    "name": "BBQ Ribs",
+    "category": "Non-Veg",
+    "price_range": "$12 - $25",
+    "nutritions": {"protein": "35g", "carbohydrates": "25g", "fat": "20g"},
+    "calories": 700,
+    "ingredients": ["Pork Ribs", "BBQ Sauce", "Spices"],
+    "details": "Tender pork ribs coated in a smoky BBQ sauce.",
+    "images": ["assets/non-veg/bbq_ribs.jpg"]
+  },
+  {
+    "name": "Chicken Sandwich",
+    "category": "Non-Veg",
+    "price_range": "$5 - $10",
+    "nutritions": {"protein": "25g", "carbohydrates": "30g", "fat": "12g"},
+    "calories": 400,
+    "ingredients": ["Chicken Breast", "Bun", "Lettuce", "Tomato", "Cheese"],
+    "details": "Grilled chicken served in a sandwich with fresh vegetables.",
+    "images": ["assets/non-veg/chicken_sandwich.jpg"]
+  },
+  {
+    "name": "Bacon",
+    "category": "Non-Veg",
+    "price_range": "$3 - $8",
+    "nutritions": {"protein": "10g", "carbohydrates": "1g", "fat": "15g"},
+    "calories": 200,
+    "ingredients": ["Bacon", "Salt", "Pepper"],
+    "details": "Crispy fried bacon strips.",
+    "images": ["assets/non-veg/bacon.jpg"]
+  },
+  {
+    "name": "Grilled Chicken Breast",
+    "category": "Non-Veg",
+    "price_range": "$8 - $18",
+    "nutritions": {"protein": "35g", "carbohydrates": "0g", "fat": "8g"},
+    "calories": 350,
+    "ingredients": ["Chicken Breast", "Olive Oil", "Garlic", "Herbs"],
+    "details": "A lean grilled chicken breast seasoned with herbs and spices.",
+    "images": ["assets/non-veg/grilled_chicken_breast.jpg"]
+  },
+  {
+    "name": "Spaghetti Bolognese",
+    "category": "Non-Veg",
+    "price_range": "$7 - $15",
+    "nutritions": {"protein": "20g", "carbohydrates": "50g", "fat": "15g"},
+    "calories": 600,
+    "ingredients": ["Spaghetti", "Ground Beef", "Tomatoes", "Garlic", "Onions"],
+    "details": "Spaghetti served with a rich ground beef and tomato sauce.",
+    "images": ["assets/non-veg/spaghetti_bolognese.jpg"]
+  },
+  {
+    "name": "Duck Confit",
+    "category": "Non-Veg",
+    "price_range": "$15 - $30",
+    "nutritions": {"protein": "25g", "carbohydrates": "5g", "fat": "30g"},
+    "calories": 550,
+    "ingredients": ["Duck Leg", "Duck Fat", "Garlic", "Herbs"],
+    "details": "Duck leg slow-cooked in its own fat, served with crispy skin.",
+    "images": ["assets/non-veg/duck_confit.jpg"]
+  },
+  {
+    "name": "Pork Belly",
+    "category": "Non-Veg",
+    "price_range": "$12 - $25",
+    "nutritions": {"protein": "25g", "carbohydrates": "5g", "fat": "30g"},
+    "calories": 700,
+    "ingredients": ["Pork Belly", "Soy Sauce", "Garlic", "Honey"],
+    "details": "Tender, crispy pork belly served with a savory glaze.",
+    "images": ["assets/non-veg/pork_belly.jpg"]
+  },
+  {
+    "name": "Shepherd’s Pie",
+    "category": "Non-Veg",
+    "price_range": "$8 - $18",
+    "nutritions": {"protein": "20g", "carbohydrates": "30g", "fat": "12g"},
+    "calories": 400,
+    "ingredients": ["Ground Lamb", "Mashed Potatoes", "Carrots", "Peas", "Onions"],
+    "details": "A comforting dish made with ground lamb and mashed potatoes.",
+    "images": ["assets/non-veg/shepherds_pie.jpg"]
+  },
+{
+    "name": "Sushi",
+    "category": "Seafood",
+    "price_range": "$8 - $20",
+    "nutritions": {"protein": "15g", "carbohydrates": "30g", "fat": "5g"},
+    "calories": 350,
+    "ingredients": ["Rice", "Seaweed", "Fish", "Vegetables"],
+    "details": "Japanese dish of vinegared rice accompanied by seafood or vegetables.",
+    "images": ["assets/seafood/sushi.jpg"]
+  },
+  {
+    "name": "Shrimp Cocktail",
+    "category": "Seafood",
+    "price_range": "$10 - $18",
+    "nutritions": {"protein": "20g", "carbohydrates": "10g", "fat": "2g"},
+    "calories": 200,
+    "ingredients": ["Shrimp", "Cocktail Sauce", "Lemon"],
+    "details": "Chilled shrimp served with a tangy cocktail sauce.",
+    "images": ["assets/seafood/shrimp_cocktail.jpg"]
+  },
+  {
+    "name": "Grilled Salmon",
+    "category": "Seafood",
+    "price_range": "$15 - $30",
+    "nutritions": {"protein": "25g", "carbohydrates": "0g", "fat": "15g"},
+    "calories": 400,
+    "ingredients": ["Salmon", "Olive Oil", "Lemon", "Herbs"],
+    "details": "Grilled salmon with a light seasoning of olive oil and herbs.",
+    "images": ["assets/seafood/grilled_salmon.jpg"]
+  },
+  {
+    "name": "Lobster",
+    "category": "Seafood",
+    "price_range": "$20 - $50",
+    "nutritions": {"protein": "30g", "carbohydrates": "0g", "fat": "5g"},
+    "calories": 300,
+    "ingredients": ["Lobster", "Butter", "Garlic"],
+    "details": "Delicious lobster meat served with melted butter.",
+    "images": ["assets/seafood/lobster.jpg"]
+  },
+  {
+    "name": "Crab Legs",
+    "category": "Seafood",
+    "price_range": "$15 - $35",
+    "nutritions": {"protein": "25g", "carbohydrates": "5g", "fat": "15g"},
+    "calories": 400,
+    "ingredients": ["Crab Legs", "Butter", "Lemon"],
+    "details": "Sweet crab legs served with a side of butter for dipping.",
+    "images": ["assets/seafood/crab_legs.jpg"]
+  },
+  {
+    "name": "Fish and Chips",
+    "category": "Seafood",
+    "price_range": "$8 - $18",
+    "nutritions": {"protein": "20g", "carbohydrates": "40g", "fat": "15g"},
+    "calories": 600,
+    "ingredients": ["Fish", "Potatoes", "Batter", "Oil"],
+    "details": "Crispy battered fish served with golden fried potato chips.",
+    "images": ["assets/seafood/fish_and_chips.jpg"]
+  },
+  {
+    "name": "Ceviche",
+    "category": "Seafood",
+    "price_range": "$12 - $20",
+    "nutritions": {"protein": "20g", "carbohydrates": "15g", "fat": "5g"},
+    "calories": 300,
+    "ingredients": ["Fish", "Lemon", "Onions", "Cilantro", "Chili"],
+    "details": "A refreshing dish made with fresh fish marinated in citrus and mixed with vegetables.",
+    "images": ["assets/seafood/ceviche.jpg"]
+  },
+  {
+    "name": "Oyster Platter",
+    "category": "Seafood",
+    "price_range": "$15 - $30",
+    "nutritions": {"protein": "25g", "carbohydrates": "10g", "fat": "7g"},
+    "calories": 350,
+    "ingredients": ["Oysters", "Lemon", "Hot Sauce"],
+    "details": "A platter of fresh oysters served with lemon and hot sauce.",
+    "images": ["assets/seafood/oyster_platter.jpg"]
+  },
+  {
+    "name": "Tuna Sashimi",
+    "category": "Seafood",
+    "price_range": "$12 - $25",
+    "nutritions": {"protein": "30g", "carbohydrates": "0g", "fat": "10g"},
+    "calories": 200,
+    "ingredients": ["Tuna", "Soy Sauce", "Wasabi"],
+    "details": "Fresh tuna slices served with soy sauce and wasabi.",
+    "images": ["assets/seafood/tuna_sashimi.jpg"]
+  },
+  {
+    "name": "Prawns",
+    "category": "Seafood",
+    "price_range": "$10 - $20",
+    "nutritions": {"protein": "20g", "carbohydrates": "5g", "fat": "8g"},
+    "calories": 250,
+    "ingredients": ["Prawns", "Garlic", "Butter", "Lemon"],
+    "details": "Sautéed prawns with garlic butter and a squeeze of lemon.",
+    "images": ["assets/seafood/prawns.jpg"]
+  },
+  {
+    "name": "Mussels",
+    "category": "Seafood",
+    "price_range": "$10 - $18",
+    "nutritions": {"protein": "20g", "carbohydrates": "10g", "fat": "5g"},
+    "calories": 250,
+    "ingredients": ["Mussels", "Garlic", "White Wine", "Herbs"],
+    "details": "Steamed mussels with garlic, white wine, and herbs.",
+    "images": ["assets/seafood/mussels.jpg"]
+  },
+  {
+    "name": "Calamari",
+    "category": "Seafood",
+    "price_range": "$8 - $15",
+    "nutritions": {"protein": "15g", "carbohydrates": "20g", "fat": "10g"},
+    "calories": 300,
+    "ingredients": ["Squid", "Flour", "Spices", "Oil"],
+    "details": "Crispy fried squid rings served with marinara sauce.",
+    "images": ["assets/seafood/calamari.jpg"]
+  },
+  {
+    "name": "Seafood Paella",
+    "category": "Seafood",
+    "price_range": "$18 - $40",
+    "nutritions": {"protein": "30g", "carbohydrates": "50g", "fat": "15g"},
+    "calories": 700,
+    "ingredients": ["Rice", "Seafood", "Saffron", "Vegetables"],
+    "details": "A Spanish rice dish loaded with seafood, saffron, and vegetables.",
+    "images": ["assets/seafood/seafood_paella.jpg"]
+  },
+  {
+    "name": "Clam Chowder",
+    "category": "Seafood",
+    "price_range": "$8 - $16",
+    "nutritions": {"protein": "10g", "carbohydrates": "20g", "fat": "12g"},
+    "calories": 350,
+    "ingredients": ["Clams", "Cream", "Potatoes", "Onions", "Celery"],
+    "details": "A creamy soup made with clams, potatoes, and vegetables.",
+    "images": ["assets/seafood/clam_chowder.jpg"]
+  },
+  {
+    "name": "Octopus Salad",
+    "category": "Seafood",
+    "price_range": "$12 - $25",
+    "nutritions": {"protein": "30g", "carbohydrates": "10g", "fat": "8g"},
+    "calories": 300,
+    "ingredients": ["Octopus", "Olive Oil", "Lemon", "Cucumber", "Herbs"],
+    "details": "A refreshing salad with tender octopus and lemon dressing.",
+    "images": ["assets/seafood/octopus_salad.jpg"]
+  },
+{
+    "name": "Coffee",
+    "category": "Drinks",
+    "price_range": "$2 - $5",
+    "nutritions": {"protein": "1g", "carbohydrates": "0g", "fat": "0g"},
+    "calories": 5,
+    "ingredients": ["Coffee Beans", "Water"],
+    "details": "Brewed coffee made from ground coffee beans and water.",
+    "images": ["assets/drinks/coffee.jpg"]
+  },
+  {
+    "name": "Tea",
+    "category": "Drinks",
+    "price_range": "$1 - $4",
+    "nutritions": {"protein": "0g", "carbohydrates": "1g", "fat": "0g"},
+    "calories": 2,
+    "ingredients": ["Tea Leaves", "Water"],
+    "details": "A hot or cold beverage made by steeping tea leaves in water.",
+    "images": ["assets/drinks/tea.jpg"]
+  },
+  {
+    "name": "Smoothie",
+    "category": "Drinks",
+    "price_range": "$5 - $8",
+    "nutritions": {"protein": "5g", "carbohydrates": "30g", "fat": "3g"},
+    "calories": 150,
+    "ingredients": ["Fruits", "Yogurt", "Ice", "Honey"],
+    "details": "A blended drink made with fruits, yogurt, and ice.",
+    "images": ["assets/drinks/smoothie.jpg"]
+  },
+  {
+    "name": "Milkshake",
+    "category": "Drinks",
+    "price_range": "$4 - $7",
+    "nutritions": {"protein": "6g", "carbohydrates": "45g", "fat": "15g"},
+    "calories": 350,
+    "ingredients": ["Milk", "Ice Cream", "Sugar"],
+    "details": "A creamy drink made by blending milk and ice cream.",
+    "images": ["assets/drinks/milkshake.jpg"]
+  },
+  {
+    "name": "Lemonade",
+    "category": "Drinks",
+    "price_range": "$2 - $5",
+    "nutritions": {"protein": "0g", "carbohydrates": "20g", "fat": "0g"},
+    "calories": 80,
+    "ingredients": ["Lemon", "Water", "Sugar"],
+    "details": "A refreshing drink made from lemon juice, water, and sugar.",
+    "images": ["assets/drinks/lemonade.jpg"]
+  },
+  {
+    "name": "Mojito",
+    "category": "Drinks",
+    "price_range": "$6 - $10",
+    "nutritions": {"protein": "0g", "carbohydrates": "10g", "fat": "0g"},
+    "calories": 150,
+    "ingredients": ["Mint", "Rum", "Lime", "Sugar", "Soda"],
+    "details": "A cocktail made with rum, mint leaves, lime, sugar, and soda.",
+    "images": ["assets/drinks/mojito.jpg"]
+  },
+  {
+    "name": "Soda",
+    "category": "Drinks",
+    "price_range": "$1 - $3",
+    "nutritions": {"protein": "0g", "carbohydrates": "30g", "fat": "0g"},
+    "calories": 120,
+    "ingredients": ["Carbonated Water", "Sugar", "Flavoring"],
+    "details": "A carbonated drink flavored with sugar and various ingredients.",
+    "images": ["assets/drinks/soda.jpg"]
+  },
+  {
+    "name": "Iced Tea",
+    "category": "Drinks",
+    "price_range": "$2 - $5",
+    "nutritions": {"protein": "0g", "carbohydrates": "10g", "fat": "0g"},
+    "calories": 50,
+    "ingredients": ["Tea", "Ice", "Sugar"],
+    "details": "Cold tea served with ice and sweetened with sugar.",
+    "images": ["assets/drinks/iced_tea.jpg"]
+  },
+  {
+    "name": "Beer",
+    "category": "Drinks",
+    "price_range": "$5 - $8",
+    "nutritions": {"protein": "1g", "carbohydrates": "10g", "fat": "0g"},
+    "calories": 150,
+    "ingredients": ["Water", "Hops", "Malt", "Yeast"],
+    "details": "A fermented beverage made from water, hops, malt, and yeast.",
+    "images": ["assets/drinks/beer.jpg"]
+  },
+  {
+    "name": "Wine",
+    "category": "Drinks",
+    "price_range": "$8 - $20",
+    "nutritions": {"protein": "0g", "carbohydrates": "5g", "fat": "0g"},
+    "calories": 120,
+    "ingredients": ["Grapes"],
+    "details": "An alcoholic beverage made from fermented grapes.",
+    "images": ["assets/drinks/wine.jpg"]
+  },
+  {
+    "name": "Cocktails",
+    "category": "Drinks",
+    "price_range": "$8 - $15",
+    "nutritions": {"protein": "0g", "carbohydrates": "20g", "fat": "0g"},
+    "calories": 200,
+    "ingredients": ["Various Spirits", "Juices", "Soda", "Sugar"],
+    "details": "A mixed drink with various spirits and flavorings.",
+    "images": ["assets/drinks/cocktails.jpg"]
+  },
+  {
+    "name": "Hot Chocolate",
+    "category": "Drinks",
+    "price_range": "$3 - $6",
+    "nutritions": {"protein": "3g", "carbohydrates": "35g", "fat": "10g"},
+    "calories": 250,
+    "ingredients": ["Milk", "Cocoa Powder", "Sugar", "Marshmallows"],
+    "details": "A warm drink made with milk, cocoa, and sugar, often topped with marshmallows.",
+    "images": ["assets/drinks/hot_chocolate.jpg"]
+  },
+  {
+    "name": "Juice Box",
+    "category": "Drinks",
+    "price_range": "$1 - $3",
+    "nutritions": {"protein": "1g", "carbohydrates": "25g", "fat": "0g"},
+    "calories": 100,
+    "ingredients": ["Fruit Juice", "Water"],
+    "details": "A small box of fruit juice, convenient for on-the-go.",
+    "images": ["assets/drinks/juice_box.jpg"]
+  },
+  {
+    "name": "Matcha Latte",
+    "category": "Drinks",
+    "price_range": "$4 - $7",
+    "nutritions": {"protein": "5g", "carbohydrates": "15g", "fat": "6g"},
+    "calories": 180,
+    "ingredients": ["Matcha", "Milk", "Sugar"],
+    "details": "A creamy drink made with matcha green tea and steamed milk.",
+    "images": ["assets/drinks/matcha_latte.jpg"]
+  },
+  {
+    "name": "Espresso",
+    "category": "Drinks",
+    "price_range": "$2 - $4",
+    "nutritions": {"protein": "1g", "carbohydrates": "1g", "fat": "0g"},
+    "calories": 5,
+    "ingredients": ["Coffee Beans", "Water"],
+    "details": "A strong, concentrated coffee brewed by forcing hot water through finely-ground coffee beans.",
+    "images": ["assets/drinks/espresso.jpg"]
+  },
+{
+    "name": "Chocolate Cake",
+    "category": "Cakes",
+    "price_range": "$10 - $20",
+    "nutritions": {"protein": "5g", "carbohydrates": "60g", "fat": "25g"},
+    "calories": 350,
+    "ingredients": ["Flour", "Cocoa Powder", "Sugar", "Eggs", "Butter", "Milk"],
+    "details": "A rich and moist cake made with cocoa powder and topped with chocolate icing.",
+    "images": ["assets/cakes/chocolate_cake.jpg"]
+  },
+  {
+    "name": "Vanilla Cake",
+    "category": "Cakes",
+    "price_range": "$8 - $18",
+    "nutritions": {"protein": "4g", "carbohydrates": "50g", "fat": "15g"},
+    "calories": 300,
+    "ingredients": ["Flour", "Vanilla Extract", "Sugar", "Eggs", "Butter", "Milk"],
+    "details": "A classic, light, and fluffy cake made with vanilla extract and frosted with vanilla icing.",
+    "images": ["assets/cakes/vanilla_cake.jpg"]
+  },
+  {
+    "name": "Red Velvet Cake",
+    "category": "Cakes",
+    "price_range": "$12 - $22",
+    "nutritions": {"protein": "5g", "carbohydrates": "55g", "fat": "20g"},
+    "calories": 330,
+    "ingredients": ["Flour", "Cocoa Powder", "Buttermilk", "Sugar", "Eggs", "Cream Cheese"],
+    "details": "A moist cake with a unique red color, topped with a creamy cream cheese frosting.",
+    "images": ["assets/cakes/red_velvet_cake.jpg"]
+  },
+  {
+    "name": "Cheesecake",
+    "category": "Cakes",
+    "price_range": "$15 - $30",
+    "nutritions": {"protein": "6g", "carbohydrates": "40g", "fat": "25g"},
+    "calories": 400,
+    "ingredients": ["Cream Cheese", "Sugar", "Eggs", "Graham Crackers", "Butter"],
+    "details": "A rich and creamy cake made with cream cheese on a buttery graham cracker crust.",
+    "images": ["assets/cakes/cheesecake.jpg"]
+  },
+  {
+    "name": "Carrot Cake",
+    "category": "Cakes",
+    "price_range": "$10 - $18",
+    "nutritions": {"protein": "6g", "carbohydrates": "50g", "fat": "18g"},
+    "calories": 350,
+    "ingredients": ["Carrots", "Flour", "Sugar", "Eggs", "Cinnamon", "Cream Cheese"],
+    "details": "A moist cake made with grated carrots, topped with a rich cream cheese frosting.",
+    "images": ["assets/cakes/carrot_cake.jpg"]
+  },
+  {
+    "name": "Black Forest Cake",
+    "category": "Cakes",
+    "price_range": "$12 - $25",
+    "nutritions": {"protein": "5g", "carbohydrates": "55g", "fat": "20g"},
+    "calories": 340,
+    "ingredients": ["Chocolate Cake", "Cherries", "Whipped Cream", "Sugar", "Chocolate Shavings"],
+    "details": "A decadent chocolate cake layered with whipped cream, cherries, and chocolate shavings.",
+    "images": ["assets/cakes/black_forest_cake.jpg"]
+  },
+  {
+    "name": "Coffee Cake",
+    "category": "Cakes",
+    "price_range": "$8 - $18",
+    "nutritions": {"protein": "4g", "carbohydrates": "50g", "fat": "12g"},
+    "calories": 280,
+    "ingredients": ["Flour", "Coffee", "Sugar", "Eggs", "Butter", "Cinnamon"],
+    "details": "A moist and flavorful cake made with coffee and topped with a cinnamon streusel.",
+    "images": ["assets/cakes/coffee_cake.jpg"]
+  },
+  {
+    "name": "Fruit Cake",
+    "category": "Cakes",
+    "price_range": "$15 - $30",
+    "nutritions": {"protein": "5g", "carbohydrates": "60g", "fat": "15g"},
+    "calories": 350,
+    "ingredients": ["Dried Fruit", "Nuts", "Flour", "Sugar", "Eggs", "Spices"],
+    "details": "A rich cake packed with dried fruits and nuts, often enjoyed during the holiday season.",
+    "images": ["assets/cakes/fruit_cake.jpg"]
+  },
+  {
+    "name": "Cupcakes",
+    "category": "Cakes",
+    "price_range": "$2 - $5",
+    "nutritions": {"protein": "3g", "carbohydrates": "25g", "fat": "10g"},
+    "calories": 180,
+    "ingredients": ["Flour", "Sugar", "Eggs", "Butter", "Vanilla"],
+    "details": "Miniature cakes, often topped with frosting and sprinkles, perfect for individual servings.",
+    "images": ["assets/cakes/cupcakes.jpg"]
+  },
+  {
+    "name": "Rainbow Cake",
+    "category": "Cakes",
+    "price_range": "$15 - $25",
+    "nutritions": {"protein": "4g", "carbohydrates": "55g", "fat": "18g"},
+    "calories": 330,
+    "ingredients": ["Flour", "Food Coloring", "Sugar", "Eggs", "Butter"],
+    "details": "A vibrant, multi-layered cake with colorful frosting and a delightful appearance.",
+    "images": ["assets/cakes/rainbow_cake.jpg"]
+  },
+  {
+    "name": "Tiramisu",
+    "category": "Cakes",
+    "price_range": "$12 - $20",
+    "nutritions": {"protein": "5g", "carbohydrates": "40g", "fat": "15g"},
+    "calories": 300,
+    "ingredients": ["Ladyfingers", "Mascarpone", "Coffee", "Cocoa Powder", "Sugar"],
+    "details": "A classic Italian dessert made with layers of coffee-soaked ladyfingers and mascarpone cheese.",
+    "images": ["assets/cakes/tiramisu.jpg"]
+  },
+  {
+    "name": "Ice Cream Cake",
+    "category": "Cakes",
+    "price_range": "$15 - $30",
+    "nutritions": {"protein": "6g", "carbohydrates": "50g", "fat": "20g"},
+    "calories": 350,
+    "ingredients": ["Ice Cream", "Cake Layers", "Whipped Cream", "Chocolate Chips"],
+    "details": "A frozen cake made with layers of cake and ice cream, often topped with whipped cream and sprinkles.",
+    "images": ["assets/cakes/ice_cream_cake.jpg"]
+  },
+  {
+    "name": "Sponge Cake",
+    "category": "Cakes",
+    "price_range": "$8 - $15",
+    "nutritions": {"protein": "4g", "carbohydrates": "40g", "fat": "10g"},
+    "calories": 220,
+    "ingredients": ["Flour", "Sugar", "Eggs", "Butter", "Baking Powder"],
+    "details": "A light and fluffy cake made with minimal ingredients, often used as a base for other desserts.",
+    "images": ["assets/cakes/sponge_cake.jpg"]
+  },
+  {
+    "name": "Lemon Drizzle Cake",
+    "category": "Cakes",
+    "price_range": "$10 - $20",
+    "nutritions": {"protein": "4g", "carbohydrates": "50g", "fat": "12g"},
+    "calories": 290,
+    "ingredients": ["Flour", "Lemon", "Sugar", "Eggs", "Butter"],
+    "details": "A zesty cake with a tangy lemon flavor and a sweet drizzle of lemon glaze.",
+    "images": ["assets/cakes/lemon_drizzle_cake.jpg"]
+  },
+  {
+    "name": "Angel Food Cake",
+    "category": "Cakes",
+    "price_range": "$10 - $18",
+    "nutritions": {"protein": "5g", "carbohydrates": "45g", "fat": "0g"},
+    "calories": 250,
+    "ingredients": ["Egg Whites", "Sugar", "Flour", "Vanilla"],
+    "details": "A light and airy cake made with egg whites and no fat, perfect for a delicate dessert.",
+    "images": ["assets/cakes/angel_food_cake.jpg"]
+  },
+{
+    "name": "Caesar Salad",
+    "category": "Salads",
+    "price_range": "$7 - $15",
+    "nutritions": {"protein": "10g", "carbohydrates": "20g", "fat": "18g"},
+    "calories": 250,
+    "ingredients": ["Romaine Lettuce", "Croutons", "Parmesan Cheese", "Caesar Dressing"],
+    "details": "A classic salad made with romaine lettuce, croutons, Parmesan cheese, and Caesar dressing.",
+    "images": ["assets/salads/caesar_salad.jpg"]
+  },
+  {
+    "name": "Greek Salad",
+    "category": "Salads",
+    "price_range": "$8 - $18",
+    "nutritions": {"protein": "6g", "carbohydrates": "15g", "fat": "12g"},
+    "calories": 180,
+    "ingredients": ["Cucumber", "Tomato", "Olives", "Feta Cheese", "Olive Oil", "Oregano"],
+    "details": "A refreshing Mediterranean salad made with cucumbers, tomatoes, olives, and feta cheese, dressed with olive oil and oregano.",
+    "images": ["assets/salads/greek_salad.jpg"]
+  },
+  {
+    "name": "Fruit Salad",
+    "category": "Salads",
+    "price_range": "$5 - $12",
+    "nutritions": {"protein": "2g", "carbohydrates": "25g", "fat": "1g"},
+    "calories": 150,
+    "ingredients": ["Mixed Fruits", "Honey", "Mint"],
+    "details": "A colorful salad made with a variety of fresh fruits, drizzled with honey and garnished with mint.",
+    "images": ["assets/salads/fruit_salad.jpg"]
+  },
+  {
+    "name": "Pasta Salad",
+    "category": "Salads",
+    "price_range": "$8 - $18",
+    "nutritions": {"protein": "8g", "carbohydrates": "30g", "fat": "12g"},
+    "calories": 300,
+    "ingredients": ["Pasta", "Olives", "Tomatoes", "Cucumber", "Italian Dressing"],
+    "details": "A hearty salad made with pasta, vegetables, and Italian dressing.",
+    "images": ["assets/salads/pasta_salad.jpg"]
+  },
+  {
+    "name": "Chicken Salad",
+    "category": "Salads",
+    "price_range": "$10 - $20",
+    "nutritions": {"protein": "20g", "carbohydrates": "10g", "fat": "15g"},
+    "calories": 300,
+    "ingredients": ["Chicken Breast", "Lettuce", "Tomatoes", "Cucumber", "Mayonnaise"],
+    "details": "A delicious salad made with tender chicken breast, lettuce, tomatoes, and cucumber, topped with mayonnaise.",
+    "images": ["assets/salads/chicken_salad.jpg"]
+  },
+  {
+    "name": "Cobb Salad",
+    "category": "Salads",
+    "price_range": "$10 - $22",
+    "nutritions": {"protein": "25g", "carbohydrates": "12g", "fat": "20g"},
+    "calories": 400,
+    "ingredients": ["Chicken", "Bacon", "Avocado", "Egg", "Lettuce", "Blue Cheese", "Ranch Dressing"],
+    "details": "A hearty salad with chicken, bacon, avocado, boiled egg, and blue cheese, served with ranch dressing.",
+    "images": ["assets/salads/cobb_salad.jpg"]
+  },
+  {
+    "name": "Caprese Salad",
+    "category": "Salads",
+    "price_range": "$8 - $18",
+    "nutritions": {"protein": "6g", "carbohydrates": "10g", "fat": "14g"},
+    "calories": 180,
+    "ingredients": ["Tomato", "Mozzarella", "Basil", "Olive Oil", "Balsamic Vinegar"],
+    "details": "A fresh Italian salad made with sliced tomatoes, mozzarella, basil, olive oil, and balsamic vinegar.",
+    "images": ["assets/salads/caprese_salad.jpg"]
+  },
+  {
+    "name": "Tuna Salad",
+    "category": "Salads",
+    "price_range": "$8 - $15",
+    "nutritions": {"protein": "18g", "carbohydrates": "5g", "fat": "10g"},
+    "calories": 250,
+    "ingredients": ["Tuna", "Lettuce", "Tomatoes", "Olives", "Mayonnaise"],
+    "details": "A light and protein-packed salad made with tuna, lettuce, tomatoes, olives, and mayonnaise.",
+    "images": ["assets/salads/tuna_salad.jpg"]
+  },
+  {
+    "name": "Asian Slaw",
+    "category": "Salads",
+    "price_range": "$6 - $12",
+    "nutritions": {"protein": "3g", "carbohydrates": "15g", "fat": "8g"},
+    "calories": 180,
+    "ingredients": ["Cabbage", "Carrots", "Ginger", "Soy Sauce", "Sesame Oil"],
+    "details": "A crunchy and flavorful slaw made with cabbage, carrots, and a tangy sesame-ginger dressing.",
+    "images": ["assets/salads/asian_slaw.jpg"]
+  },
+  {
+    "name": "Quinoa Salad",
+    "category": "Salads",
+    "price_range": "$10 - $18",
+    "nutritions": {"protein": "8g", "carbohydrates": "35g", "fat": "8g"},
+    "calories": 320,
+    "ingredients": ["Quinoa", "Cucumber", "Tomatoes", "Feta Cheese", "Lemon Dressing"],
+    "details": "A nutritious salad made with quinoa, fresh vegetables, and a lemon dressing.",
+    "images": ["assets/salads/quinoa_salad.jpg"]
+  },
+  {
+    "name": "Spinach Salad",
+    "category": "Salads",
+    "price_range": "$7 - $14",
+    "nutritions": {"protein": "4g", "carbohydrates": "7g", "fat": "5g"},
+    "calories": 150,
+    "ingredients": ["Spinach", "Walnuts", "Goat Cheese", "Balsamic Vinegar"],
+    "details": "A fresh salad made with spinach, walnuts, goat cheese, and balsamic vinegar dressing.",
+    "images": ["assets/salads/spinach_salad.jpg"]
+  },
+  {
+    "name": "Beetroot Salad",
+    "category": "Salads",
+    "price_range": "$8 - $16",
+    "nutritions": {"protein": "4g", "carbohydrates": "25g", "fat": "6g"},
+    "calories": 200,
+    "ingredients": ["Beetroot", "Arugula", "Goat Cheese", "Walnuts", "Olive Oil"],
+    "details": "A refreshing salad made with roasted beetroot, arugula, goat cheese, and walnuts.",
+    "images": ["assets/salads/beetroot_salad.jpg"]
+  },
+  {
+    "name": "Waldorf Salad",
+    "category": "Salads",
+    "price_range": "$8 - $18",
+    "nutritions": {"protein": "3g", "carbohydrates": "20g", "fat": "12g"},
+    "calories": 220,
+    "ingredients": ["Apple", "Celery", "Walnuts", "Grapes", "Mayonnaise"],
+    "details": "A classic salad made with apples, celery, walnuts, and grapes, dressed in mayonnaise.",
+    "images": ["assets/salads/waldorf_salad.jpg"]
+  },
+  {
+    "name": "Potato Salad",
+    "category": "Salads",
+    "price_range": "$6 - $14",
+    "nutritions": {"protein": "4g", "carbohydrates": "30g", "fat": "10g"},
+    "calories": 250,
+    "ingredients": ["Potatoes", "Mayonnaise", "Mustard", "Pickles", "Egg"],
+    "details": "A creamy salad made with boiled potatoes, mayonnaise, mustard, and pickles.",
+    "images": ["assets/salads/potato_salad.jpg"]
+  },
+  {
+    "name": "Avocado Salad",
+    "category": "Salads",
+    "price_range": "$8 - $18",
+    "nutritions": {"protein": "3g", "carbohydrates": "10g", "fat": "18g"},
+    "calories": 250,
+    "ingredients": ["Avocado", "Lettuce", "Tomatoes", "Cucumber", "Lemon Dressing"],
+    "details": "A creamy and flavorful salad made with ripe avocado, lettuce, tomatoes, and cucumber.",
+    "images": ["assets/salads/avocado_salad.jpg"]
+  },
+{
+    "name": "Tomato Soup",
+    "category": "Soups",
+    "price_range": "$5 - $12",
+    "nutritions": {"protein": "3g", "carbohydrates": "20g", "fat": "8g"},
+    "calories": 150,
+    "ingredients": ["Tomatoes", "Onions", "Garlic", "Olive Oil", "Basil", "Cream"],
+    "details": "A smooth and creamy soup made with fresh tomatoes, garlic, and basil.",
+    "images": ["assets/soups/tomato_soup.jpg"]
+  },
+  {
+    "name": "Chicken Noodle Soup",
+    "category": "Soups",
+    "price_range": "$6 - $15",
+    "nutritions": {"protein": "15g", "carbohydrates": "20g", "fat": "7g"},
+    "calories": 220,
+    "ingredients": ["Chicken", "Noodles", "Carrots", "Celery", "Onions", "Chicken Broth"],
+    "details": "A comforting soup with tender chicken, noodles, and vegetables in a savory broth.",
+    "images": ["assets/soups/chicken_noodle_soup.jpg"]
+  },
+  {
+    "name": "Minestrone Soup",
+    "category": "Soups",
+    "price_range": "$6 - $14",
+    "nutritions": {"protein": "5g", "carbohydrates": "30g", "fat": "6g"},
+    "calories": 180,
+    "ingredients": ["Tomatoes", "Carrots", "Celery", "Onions", "Beans", "Pasta", "Vegetable Broth"],
+    "details": "A hearty Italian soup with a variety of vegetables, beans, and pasta.",
+    "images": ["assets/soups/minestrone_soup.jpg"]
+  },
+  {
+    "name": "French Onion Soup",
+    "category": "Soups",
+    "price_range": "$7 - $18",
+    "nutritions": {"protein": "6g", "carbohydrates": "20g", "fat": "12g"},
+    "calories": 250,
+    "ingredients": ["Onions", "Beef Broth", "Cheese", "Bread", "Butter", "Thyme"],
+    "details": "A rich soup made with caramelized onions and beef broth, topped with melted cheese and croutons.",
+    "images": ["assets/soups/french_onion_soup.jpg"]
+  },
+  {
+    "name": "Clam Chowder",
+    "category": "Soups",
+    "price_range": "$7 - $16",
+    "nutritions": {"protein": "12g", "carbohydrates": "20g", "fat": "14g"},
+    "calories": 300,
+    "ingredients": ["Clams", "Potatoes", "Onions", "Celery", "Cream", "Butter"],
+    "details": "A creamy and hearty soup made with clams, potatoes, and a rich creamy broth.",
+    "images": ["assets/soups/clam_chowder.jpg"]
+  },
+  {
+    "name": "Pumpkin Soup",
+    "category": "Soups",
+    "price_range": "$6 - $14",
+    "nutritions": {"protein": "2g", "carbohydrates": "25g", "fat": "7g"},
+    "calories": 180,
+    "ingredients": ["Pumpkin", "Onions", "Garlic", "Ginger", "Vegetable Broth", "Cream"],
+    "details": "A warm and creamy soup made with roasted pumpkin, onions, and a touch of ginger.",
+    "images": ["assets/soups/pumpkin_soup.jpg"]
+  },
+  {
+    "name": "Lentil Soup",
+    "category": "Soups",
+    "price_range": "$6 - $12",
+    "nutritions": {"protein": "10g", "carbohydrates": "30g", "fat": "3g"},
+    "calories": 200,
+    "ingredients": ["Lentils", "Carrots", "Celery", "Onions", "Garlic", "Vegetable Broth"],
+    "details": "A hearty and nutritious soup made with lentils, vegetables, and a savory broth.",
+    "images": ["assets/soups/lentil_soup.jpg"]
+  },
+  {
+    "name": "Miso Soup",
+    "category": "Soups",
+    "price_range": "$5 - $10",
+    "nutritions": {"protein": "5g", "carbohydrates": "7g", "fat": "2g"},
+    "calories": 100,
+    "ingredients": ["Miso Paste", "Tofu", "Seaweed", "Green Onions", "Dashi"],
+    "details": "A traditional Japanese soup made with miso paste, tofu, seaweed, and dashi broth.",
+    "images": ["assets/soups/miso_soup.jpg"]
+  },
+  {
+    "name": "Broccoli Cheddar",
+    "category": "Soups",
+    "price_range": "$6 - $14",
+    "nutritions": {"protein": "8g", "carbohydrates": "18g", "fat": "12g"},
+    "calories": 250,
+    "ingredients": ["Broccoli", "Cheddar Cheese", "Onions", "Milk", "Butter", "Flour"],
+    "details": "A creamy soup made with broccoli and sharp cheddar cheese.",
+    "images": ["assets/soups/broccoli_cheddar_soup.jpg"]
+  },
+  {
+    "name": "Gazpacho",
+    "category": "Soups",
+    "price_range": "$5 - $10",
+    "nutritions": {"protein": "2g", "carbohydrates": "15g", "fat": "3g"},
+    "calories": 80,
+    "ingredients": ["Tomatoes", "Cucumber", "Bell Peppers", "Onions", "Garlic", "Olive Oil"],
+    "details": "A cold Spanish soup made with blended tomatoes, cucumbers, peppers, and olive oil.",
+    "images": ["assets/soups/gazpacho.jpg"]
+  },
+  {
+    "name": "Ramen",
+    "category": "Soups",
+    "price_range": "$8 - $20",
+    "nutritions": {"protein": "15g", "carbohydrates": "40g", "fat": "10g"},
+    "calories": 350,
+    "ingredients": ["Ramen Noodles", "Pork", "Egg", "Soy Sauce", "Broth", "Green Onions"],
+    "details": "A traditional Japanese noodle soup made with ramen noodles, pork, and a savory broth.",
+    "images": ["assets/soups/ramen.jpg"]
+  },
+  {
+    "name": "Pho",
+    "category": "Soups",
+    "price_range": "$7 - $18",
+    "nutritions": {"protein": "20g", "carbohydrates": "35g", "fat": "10g"},
+    "calories": 300,
+    "ingredients": ["Rice Noodles", "Beef", "Herbs", "Ginger", "Onions", "Beef Broth"],
+    "details": "A Vietnamese soup made with rice noodles, herbs, and a savory beef broth.",
+    "images": ["assets/soups/pho.jpg"]
+  },
+  {
+    "name": "Corn Chowder",
+    "category": "Soups",
+    "price_range": "$6 - $14",
+    "nutritions": {"protein": "5g", "carbohydrates": "25g", "fat": "8g"},
+    "calories": 220,
+    "ingredients": ["Corn", "Potatoes", "Onions", "Cream", "Butter", "Bacon"],
+    "details": "A creamy soup made with sweet corn, potatoes, and a rich broth.",
+    "images": ["assets/soups/corn_chowder.jpg"]
+  },
+  {
+    "name": "Hot and Sour Soup",
+    "category": "Soups",
+    "price_range": "$6 - $14",
+    "nutritions": {"protein": "7g", "carbohydrates": "15g", "fat": "7g"},
+    "calories": 200,
+    "ingredients": ["Tofu", "Bamboo Shoots", "Mushrooms", "Vinegar", "Soy Sauce", "Chili Paste"],
+    "details": "A spicy and tangy Chinese soup made with tofu, bamboo shoots, and mushrooms.",
+    "images": ["assets/soups/hot_and_sour_soup.jpg"]
+  },
+  {
+    "name": "Seafood Bisque",
+    "category": "Soups",
+    "price_range": "$8 - $20",
+    "nutritions": {"protein": "15g", "carbohydrates": "15g", "fat": "10g"},
+    "calories": 280,
+    "ingredients": ["Shrimp", "Lobster", "Crab", "Cream", "Tomatoes", "Sherry"],
+    "details": "A rich and creamy soup made with a variety of seafood and a flavorful tomato base.",
+    "images": ["assets/soups/seafood_bisque.jpg"]
+  },
+{
+    "name": "Ice Cream",
+    "category": "Desserts",
+    "price_range": "$3 - $8",
+    "nutritions": {"protein": "3g", "carbohydrates": "25g", "fat": "10g"},
+    "calories": 200,
+    "ingredients": ["Milk", "Sugar", "Cream", "Vanilla Extract"],
+    "details": "A classic frozen dessert made with milk, sugar, and cream, available in various flavors.",
+    "images": ["assets/desserts/ice_cream.jpg"]
+  },
+  {
+    "name": "Chocolate Mousse",
+    "category": "Desserts",
+    "price_range": "$5 - $12",
+    "nutritions": {"protein": "5g", "carbohydrates": "25g", "fat": "15g"},
+    "calories": 350,
+    "ingredients": ["Dark Chocolate", "Eggs", "Sugar", "Whipped Cream"],
+    "details": "A rich and creamy dessert made with chocolate and whipped cream, served chilled.",
+    "images": ["assets/desserts/chocolate_mousse.jpg"]
+  },
+  {
+    "name": "Apple Pie",
+    "category": "Desserts",
+    "price_range": "$4 - $10",
+    "nutritions": {"protein": "2g", "carbohydrates": "35g", "fat": "15g"},
+    "calories": 300,
+    "ingredients": ["Apples", "Flour", "Butter", "Sugar", "Cinnamon"],
+    "details": "A traditional dessert made with spiced apples wrapped in a flaky pastry crust.",
+    "images": ["assets/desserts/apple_pie.jpg"]
+  },
+  {
+    "name": "Brownies",
+    "category": "Desserts",
+    "price_range": "$3 - $8",
+    "nutritions": {"protein": "4g", "carbohydrates": "30g", "fat": "15g"},
+    "calories": 350,
+    "ingredients": ["Chocolate", "Butter", "Sugar", "Eggs", "Flour"],
+    "details": "A rich and fudgy chocolate dessert, typically cut into squares and served warm.",
+    "images": ["assets/desserts/brownies.jpg"]
+  },
+  {
+    "name": "Tiramisu",
+    "category": "Desserts",
+    "price_range": "$6 - $15",
+    "nutritions": {"protein": "6g", "carbohydrates": "35g", "fat": "20g"},
+    "calories": 400,
+    "ingredients": ["Mascarpone Cheese", "Ladyfingers", "Coffee", "Cocoa Powder", "Eggs"],
+    "details": "An Italian dessert made with coffee-soaked ladyfingers layered with mascarpone cream.",
+    "images": ["assets/desserts/tiramisu.jpg"]
+  },
+  {
+    "name": "Cheesecake",
+    "category": "Desserts",
+    "price_range": "$6 - $18",
+    "nutritions": {"protein": "8g", "carbohydrates": "25g", "fat": "18g"},
+    "calories": 400,
+    "ingredients": ["Cream Cheese", "Sugar", "Eggs", "Graham Crackers", "Butter"],
+    "details": "A creamy dessert made with a crust of crushed graham crackers and a smooth, sweet filling.",
+    "images": ["assets/desserts/cheesecake.jpg"]
+  },
+  {
+    "name": "Baklava",
+    "category": "Desserts",
+    "price_range": "$4 - $10",
+    "nutritions": {"protein": "3g", "carbohydrates": "40g", "fat": "15g"},
+    "calories": 350,
+    "ingredients": ["Phyllo Dough", "Nuts", "Honey", "Sugar", "Butter"],
+    "details": "A Middle Eastern dessert made with layers of phyllo dough, filled with nuts and sweetened with honey.",
+    "images": ["assets/desserts/baklava.jpg"]
+  },
+  {
+    "name": "Pudding",
+    "category": "Desserts",
+    "price_range": "$3 - $7",
+    "nutritions": {"protein": "4g", "carbohydrates": "20g", "fat": "8g"},
+    "calories": 180,
+    "ingredients": ["Milk", "Sugar", "Cornstarch", "Vanilla Extract"],
+    "details": "A creamy dessert made with milk, sugar, and cornstarch, often flavored with vanilla or chocolate.",
+    "images": ["assets/desserts/pudding.jpg"]
+  },
+  {
+    "name": "Donuts",
+    "category": "Desserts",
+    "price_range": "$2 - $6",
+    "nutritions": {"protein": "3g", "carbohydrates": "25g", "fat": "15g"},
+    "calories": 250,
+    "ingredients": ["Flour", "Sugar", "Eggs", "Yeast", "Butter"],
+    "details": "Fried dough pastries, often topped with icing or powdered sugar.",
+    "images": ["assets/desserts/donuts.jpg"]
+  },
+  {
+    "name": "Crepes",
+    "category": "Desserts",
+    "price_range": "$4 - $10",
+    "nutritions": {"protein": "5g", "carbohydrates": "30g", "fat": "12g"},
+    "calories": 280,
+    "ingredients": ["Flour", "Eggs", "Milk", "Butter", "Sugar"],
+    "details": "Thin pancakes, typically filled with sweet fillings such as fruit, cream, or chocolate.",
+    "images": ["assets/desserts/crepes.jpg"]
+  },
+  {
+    "name": "Cupcakes",
+    "category": "Desserts",
+    "price_range": "$2 - $5",
+    "nutritions": {"protein": "2g", "carbohydrates": "25g", "fat": "12g"},
+    "calories": 200,
+    "ingredients": ["Flour", "Sugar", "Eggs", "Butter", "Baking Powder"],
+    "details": "Small, individual cakes often topped with frosting and decorative sprinkles.",
+    "images": ["assets/desserts/cupcakes.jpg"]
+  },
+  {
+    "name": "Macarons",
+    "category": "Desserts",
+    "price_range": "$5 - $12",
+    "nutritions": {"protein": "4g", "carbohydrates": "25g", "fat": "10g"},
+    "calories": 200,
+    "ingredients": ["Almond Flour", "Sugar", "Egg Whites", "Butter", "Cream Cheese"],
+    "details": "French meringue-based cookies with a smooth buttercream or ganache filling.",
+    "images": ["assets/desserts/macarons.jpg"]
+  },
+  {
+    "name": "Churros",
+    "category": "Desserts",
+    "price_range": "$3 - $7",
+    "nutritions": {"protein": "2g", "carbohydrates": "30g", "fat": "15g"},
+    "calories": 250,
+    "ingredients": ["Flour", "Sugar", "Eggs", "Cinnamon", "Butter"],
+    "details": "Fried dough sticks coated in sugar and cinnamon, often served with chocolate sauce.",
+    "images": ["assets/desserts/churros.jpg"]
+  },
+  {
+    "name": "Fruit Tart",
+    "category": "Desserts",
+    "price_range": "$5 - $12",
+    "nutritions": {"protein": "4g", "carbohydrates": "30g", "fat": "15g"},
+    "calories": 300,
+    "ingredients": ["Flour", "Butter", "Sugar", "Eggs", "Fruit"],
+    "details": "A pastry shell filled with custard and topped with fresh fruit.",
+    "images": ["assets/desserts/fruit_tart.jpg"]
+  },
+  {
+    "name": "Rice Pudding",
+    "category": "Desserts",
+    "price_range": "$3 - $8",
+    "nutritions": {"protein": "4g", "carbohydrates": "30g", "fat": "8g"},
+    "calories": 200,
+    "ingredients": ["Rice", "Milk", "Sugar", "Cinnamon", "Vanilla"],
+    "details": "A creamy dessert made with rice, milk, and sugar, flavored with cinnamon and vanilla.",
+    "images": ["assets/desserts/rice_pudding.jpg"]
+  },
+{
+    "name": "Lollipops",
+    "category": "Sweets",
+    "price_range": "$1 - $3",
+    "nutritions": {"protein": "0g", "carbohydrates": "25g", "fat": "0g"},
+    "calories": 100,
+    "ingredients": ["Sugar", "Corn Syrup", "Artificial Flavors", "Coloring"],
+    "details": "Hard candy on a stick, available in a variety of flavors and colors.",
+    "images": ["assets/sweets/lollipops.jpg"]
+  },
+  {
+    "name": "Candy Canes",
+    "category": "Sweets",
+    "price_range": "$2 - $5",
+    "nutritions": {"protein": "0g", "carbohydrates": "30g", "fat": "0g"},
+    "calories": 120,
+    "ingredients": ["Sugar", "Corn Syrup", "Peppermint Flavor", "Coloring"],
+    "details": "A holiday classic, candy canes are peppermint-flavored hard candies shaped like a cane.",
+    "images": ["assets/sweets/candy_can.jpg"]
+  },
+  {
+    "name": "Gummy Bears",
+    "category": "Sweets",
+    "price_range": "$3 - $7",
+    "nutritions": {"protein": "2g", "carbohydrates": "30g", "fat": "0g"},
+    "calories": 150,
+    "ingredients": ["Sugar", "Gelatin", "Corn Syrup", "Citric Acid"],
+    "details": "Chewy, colorful fruit-flavored candies shaped like bears.",
+    "images": ["assets/sweets/gummy_bears.jpg"]
+  },
+  {
+    "name": "Chocolate Bars",
+    "category": "Sweets",
+    "price_range": "$2 - $8",
+    "nutritions": {"protein": "3g", "carbohydrates": "25g", "fat": "15g"},
+    "calories": 250,
+    "ingredients": ["Cocoa", "Sugar", "Milk", "Butter"],
+    "details": "Solid bars made of chocolate, often filled with nuts, caramel, or other sweets.",
+    "images": ["assets/sweets/chocolate_bars.jpg"]
+  },
+  {
+    "name": "Marshmallows",
+    "category": "Sweets",
+    "price_range": "$2 - $5",
+    "nutritions": {"protein": "1g", "carbohydrates": "25g", "fat": "0g"},
+    "calories": 100,
+    "ingredients": ["Sugar", "Corn Syrup", "Gelatin", "Vanilla"],
+    "details": "Soft, spongy sweets made from sugar, water, and gelatin.",
+    "images": ["assets/sweets/marshmallows.jpg"]
+  },
+  {
+    "name": "Jelly Beans",
+    "category": "Sweets",
+    "price_range": "$2 - $6",
+    "nutritions": {"protein": "1g", "carbohydrates": "25g", "fat": "0g"},
+    "calories": 110,
+    "ingredients": ["Sugar", "Corn Syrup", "Pectin", "Flavoring"],
+    "details": "Small, chewy candies in a variety of flavors and colors.",
+    "images": ["assets/sweets/jelly_beans.jpg"]
+  },
+  {
+    "name": "Fudge",
+    "category": "Sweets",
+    "price_range": "$4 - $10",
+    "nutritions": {"protein": "2g", "carbohydrates": "35g", "fat": "15g"},
+    "calories": 250,
+    "ingredients": ["Sugar", "Butter", "Milk", "Vanilla"],
+    "details": "A soft, rich, and creamy candy made from sugar, butter, and milk.",
+    "images": ["assets/sweets/fudge.jpg"]
+  },
+  {
+    "name": "Caramel",
+    "category": "Sweets",
+    "price_range": "$3 - $7",
+    "nutritions": {"protein": "1g", "carbohydrates": "30g", "fat": "10g"},
+    "calories": 220,
+    "ingredients": ["Sugar", "Butter", "Heavy Cream"],
+    "details": "A sweet, rich treat made by heating sugar until it melts and turns golden.",
+    "images": ["assets/sweets/caramel.jpg"]
+  },
+  {
+    "name": "Toffee",
+    "category": "Sweets",
+    "price_range": "$4 - $8",
+    "nutritions": {"protein": "1g", "carbohydrates": "30g", "fat": "15g"},
+    "calories": 250,
+    "ingredients": ["Sugar", "Butter", "Almonds", "Chocolate"],
+    "details": "A crunchy, buttery candy, often topped with chocolate and nuts.",
+    "images": ["assets/sweets/toffee.jpg"]
+  },
+  {
+    "name": "Nougat",
+    "category": "Sweets",
+    "price_range": "$3 - $8",
+    "nutritions": {"protein": "3g", "carbohydrates": "30g", "fat": "10g"},
+    "calories": 230,
+    "ingredients": ["Sugar", "Honey", "Almonds", "Egg Whites"],
+    "details": "A chewy or crunchy candy made with sugar, honey, and egg whites, often mixed with nuts.",
+    "images": ["assets/sweets/nougat.jpg"]
+  },
+  {
+    "name": "Gulab Jamun",
+    "category": "Sweets",
+    "price_range": "$3 - $8",
+    "nutritions": {"protein": "2g", "carbohydrates": "35g", "fat": "15g"},
+    "calories": 270,
+    "ingredients": ["Milk Powder", "Sugar", "Ghee", "Cardamom"],
+    "details": "Deep-fried dough balls soaked in sugar syrup, flavored with cardamom.",
+    "images": ["assets/sweets/gulab_jamun.jpg"]
+  },
+  {
+    "name": "Halva",
+    "category": "Sweets",
+    "price_range": "$4 - $10",
+    "nutritions": {"protein": "3g", "carbohydrates": "30g", "fat": "20g"},
+    "calories": 280,
+    "ingredients": ["Tahini", "Sugar", "Honey", "Pistachios"],
+    "details": "A dense, sweet treat made with tahini, sugar, and nuts.",
+    "images": ["assets/sweets/halva.jpg"]
+  },
+  {
+    "name": "Macaroons",
+    "category": "Sweets",
+    "price_range": "$4 - $10",
+    "nutritions": {"protein": "2g", "carbohydrates": "20g", "fat": "12g"},
+    "calories": 220,
+    "ingredients": ["Coconut", "Sugar", "Egg Whites", "Vanilla"],
+    "details": "Chewy coconut cookies, often dipped in chocolate.",
+    "images": ["assets/sweets/macaroons.jpg"]
+  },
+  {
+    "name": "Mochi",
+    "category": "Sweets",
+    "price_range": "$3 - $7",
+    "nutritions": {"protein": "2g", "carbohydrates": "25g", "fat": "0g"},
+    "calories": 150,
+    "ingredients": ["Glutinous Rice", "Sugar", "Bean Paste"],
+    "details": "A chewy rice cake filled with sweet fillings such as bean paste or fruit.",
+    "images": ["assets/sweets/mochi.jpg"]
+  },
+  {
+    "name": "Kheer",
+    "category": "Sweets",
+    "price_range": "$3 - $6",
+    "nutritions": {"protein": "4g", "carbohydrates": "30g", "fat": "10g"},
+    "calories": 220,
+    "ingredients": ["Rice", "Milk", "Sugar", "Cardamom", "Raisins"],
+    "details": "A creamy rice pudding flavored with cardamom and topped with raisins.",
+    "images": ["assets/sweets/kheer.jpg"]
+  }
+]
